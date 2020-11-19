@@ -16,12 +16,12 @@ public class CursorAffordance : MonoBehaviour
     void Start()
     {
         cameraRaycaster = GetComponent<CameraRaycaster>();
-        cameraRaycaster.layerChangeObservers += OnDelegateCalled; // registering 
+        cameraRaycaster.onLayerChange += OnDelegateCalled; // registering 
     }
 
-    void OnDelegateCalled() // Only called when layer changes
+    void OnDelegateCalled(Layer newLayer) // Only called when layer changes
     {
-        switch (cameraRaycaster.currentLayerHit)
+        switch (newLayer)
         {
             case Layer.Walkable:
                 Cursor.SetCursor(walkCursor, cursorHotspot, CursorMode.Auto);
