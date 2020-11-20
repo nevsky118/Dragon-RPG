@@ -67,9 +67,13 @@
     <Compile Include="Assets\Camera &amp; UI\CameraRaycaster.cs" />
     <Compile Include="Assets\Camera &amp; UI\PlayerHealthBar.cs" />
     <Compile Include="Assets\Cursors\CursorAffordance.cs" />
+    <Compile Include="Assets\Enemies\Enemy.cs" />
+    <Compile Include="Assets\Enemies\EnemyHealthBar.cs" />
+    <Compile Include="Assets\Enemies\EnemyUI.cs" />
     <Compile Include="Assets\Player\Player.cs" />
     <Compile Include="Assets\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Utility.cs" />
+    <None Include="Assets\SETUP &amp; STANDARDS.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
