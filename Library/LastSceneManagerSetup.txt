@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Combat Sandbox.unity
+- path: Assets/Scenes/Ricks Village.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
