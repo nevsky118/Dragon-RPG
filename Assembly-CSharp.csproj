@@ -70,6 +70,7 @@
     <Compile Include="Assets\Enemies\Enemy.cs" />
     <Compile Include="Assets\Enemies\EnemyHealthBar.cs" />
     <Compile Include="Assets\Enemies\EnemyUI.cs" />
+    <Compile Include="Assets\Player\DominantHand.cs" />
     <Compile Include="Assets\Player\Player.cs" />
     <Compile Include="Assets\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Player\Projectile.cs" />
