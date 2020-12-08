@@ -63,19 +63,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Camera &amp; UI\CameraFollow.cs" />
-    <Compile Include="Assets\Camera &amp; UI\CameraRaycaster.cs" />
-    <Compile Include="Assets\Camera &amp; UI\CursorAffordance.cs" />
-    <Compile Include="Assets\Camera &amp; UI\PlayerHealthBar.cs" />
-    <Compile Include="Assets\Enemies\Enemy.cs" />
-    <Compile Include="Assets\Enemies\EnemyHealthBar.cs" />
-    <Compile Include="Assets\Enemies\EnemyUI.cs" />
-    <Compile Include="Assets\Player\DominantHand.cs" />
-    <Compile Include="Assets\Player\Player.cs" />
-    <Compile Include="Assets\Player\PlayerMovement.cs" />
-    <Compile Include="Assets\Player\Projectile.cs" />
-    <Compile Include="Assets\Utility\IDamageable.cs" />
-    <Compile Include="Assets\Utility\SpinMe.cs" />
+    <Compile Include="Assets\_CameraUI\CameraFollow.cs" />
+    <Compile Include="Assets\_CameraUI\CameraRaycaster.cs" />
+    <Compile Include="Assets\_CameraUI\CursorAffordance.cs" />
+    <Compile Include="Assets\_Characters\DominantHand.cs" />
+    <Compile Include="Assets\_Characters\Enemies\Enemy.cs" />
+    <Compile Include="Assets\_Characters\Enemies\EnemyHealthBar.cs" />
+    <Compile Include="Assets\_Characters\Enemies\EnemyUI.cs" />
+    <Compile Include="Assets\_Characters\Player\Player.cs" />
+    <Compile Include="Assets\_Characters\Player\PlayerHealthBar.cs" />
+    <Compile Include="Assets\_Characters\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\_Core\IDamageable.cs" />
+    <Compile Include="Assets\_Core\SpinMe.cs" />
+    <Compile Include="Assets\_Weapons\Projectile.cs" />
+    <Compile Include="Assets\_Weapons\Weapon.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
